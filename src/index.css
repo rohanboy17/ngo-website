@@ -1,0 +1,26 @@
+/* =========================
+   GLOBAL ENTRY STYLESHEET
+   Do not remove imports
+   ========================= */
+
+/* CSS Reset / Base */
+@import "./styles/base.css";
+
+/* Animations (scroll, hero, transitions) */
+@import "./styles/animations.css";
+
+/* Responsive overrides (tablet & mobile) */
+@import "./styles/responsive.css";
+
+/* =========================
+   Global fallbacks
+   ========================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #ffffff;
+}

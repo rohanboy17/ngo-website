@@ -1,0 +1,77 @@
+/* ================== GLOBAL SCROLL ANIMATION ================== */
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fade-up.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ================== HERO SLIDER ================== */
+
+.hero-slide {
+  position: relative;
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  animation: heroZoom 8s ease-in-out infinite;
+}
+
+@keyframes heroZoom {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.08); }
+}
+
+/* Overlay */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+/* Hero content */
+.hero-content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  animation: heroFadeUp 1s ease forwards;
+}
+
+.hero-content p {
+  margin-top: 15px;
+  animation: heroFadeUp 1.3s ease forwards;
+}
+
+@keyframes heroFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ================== PAGE FADE ================== */
+
+.page {
+  animation: pageFade 0.4s ease;
+}
+
+@keyframes pageFade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

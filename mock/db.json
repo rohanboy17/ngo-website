@@ -1,0 +1,80 @@
+{
+  "programs": [
+    {
+      "id": "1",
+      "title": "Education Support Program",
+      "description": "Providing quality education resources to children from underserved communities.",
+      "image": "https://images.unsplash.com/photo-1588072432836-e10032774350"
+    },
+    {
+      "id": "2",
+      "title": "Community Learning Centers",
+      "description": "Creating safe learning spaces for children and youth.",
+      "image": "https://images.unsplash.com/photo-1529070538774-1843cb3265df"
+    },
+    {
+      "id": "3",
+      "title": "Volunteer Teaching Initiative",
+      "description": "Engaging volunteers to support education and skill development programs.",
+      "image": "https://images.unsplash.com/photo-1596495577886-d920f1fb7238"
+    },
+    {
+      "id": "620f",
+      "title": "this is test from admin",
+      "description": "working ?",
+      "image": "https://nititantra.com/wp-content/uploads/2022/08/0.25794500_1645773147_istock-870402320.jpg"
+    }
+  ],
+  "news": [
+    {
+      "id": "1",
+      "title": "New Learning Center Opened",
+      "description": "We have successfully opened a new learning center to support community education.",
+      "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b"
+    },
+    {
+      "id": "2",
+      "title": "Volunteer Training Program Launched",
+      "description": "A new volunteer training initiative has been launched to improve teaching quality.",
+      "image": "https://images.unsplash.com/photo-1526256262350-7da7584cf5eb"
+    },
+    {
+      "id": "9f94",
+      "title": "this is test from admin",
+      "description": "working ?",
+      "image": "https://nititantra.com/wp-content/uploads/2022/08/0.25794500_1645773147_istock-870402320.jpg"
+    }
+  ],
+  "gallery": [
+    {
+      "id": "1",
+      "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b",
+      "alt": "Children studying together"
+    },
+    {
+      "id": "2",
+      "image": "https://images.unsplash.com/photo-1588072432836-e10032774350",
+      "alt": "Volunteer teaching children"
+    },
+    {
+      "id": "3",
+      "image": "https://images.unsplash.com/photo-1526256262350-7da7584cf5eb",
+      "alt": "Community education program"
+    },
+    {
+      "id": "4",
+      "image": "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c",
+      "alt": "Children learning in classroom"
+    },
+    {
+      "id": "5",
+      "image": "https://images.unsplash.com/photo-1596495577886-d920f1fb7238",
+      "alt": "NGO volunteers in action"
+    },
+    {
+      "id": "61be",
+      "image": "https://nititantra.com/wp-content/uploads/2022/08/0.25794500_1645773147_istock-870402320.jpg",
+      "alt": "this is test from admin"
+    }
+  ]
+}
